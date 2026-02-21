@@ -25,14 +25,14 @@ builder.defineCatalogHandler((args) => {
       {
         id: 'uhd:1',
         type: 'movie',
-        name: 'Dune: Part Three',
-        poster: 'https://i.imgur.com/YOURIMAGE.jpg'
+        name: 'PLAY ME',
+        poster: 'https://wsxmcc.neocities.org/file2.png'
       },
       {
         id: 'uhd:2',
         type: 'movie',
-        name: 'Avengers: Secret Wars',
-        poster: 'https://i.imgur.com/YOURIMAGE.jpg'
+        name: 'PLAY ME',
+        poster: 'https://wsxmcc.neocities.org/file2.png'
       }
     ]
   });
@@ -43,12 +43,12 @@ builder.defineMetaHandler((args) => {
     id: args.id,
     type: 'movie',
     name: 'Loading...',
-    poster: 'https://i.imgur.com/YOURIMAGE.jpg',
-    background: 'https://i.imgur.com/YOURIMAGE.jpg',
+    poster: 'https://wsxmcc.neocities.org/file2.png',
+    background: 'https://wsxmcc.neocities.org/file2.png',
     streams: [
       {
         title: '1080p',
-        url: 'https://YOUR-VIDEO-LINK.mp4'
+        url: 'https://wsxmcc.neocities.org/file2.png'
       }
     ]
   });
