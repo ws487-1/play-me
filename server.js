@@ -1,5 +1,5 @@
 const express = require('express');
-const { addonBuilder } = require('stremio-addon-sdk');
+const { addonBuilder, serveHTTP } = require('stremio-addon-sdk');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -19,41 +19,39 @@ const manifest = {
 
 const builder = new addonBuilder(manifest);
 
-builder.defineCatalogHandler((args, cb) => {
-  cb(null, {
+builder.defineCatalogHandler((args) => {
+  return Promise.resolve({
     metas: [
       {
         id: 'uhd:1',
         type: 'movie',
-        name: 'PLAY ME',
-        poster: 'https://wsxmcc.neocities.org/file2.png'
+        name: 'Dune: Part Three',
+        poster: 'https://i.imgur.com/YOURIMAGE.jpg'
       },
       {
         id: 'uhd:2',
         type: 'movie',
-        name: 'PLAY ME',
-        poster: 'https://wsxmcc.neocities.org/file2.png'
+        name: 'Avengers: Secret Wars',
+        poster: 'https://i.imgur.com/YOURIMAGE.jpg'
       }
     ]
   });
 });
 
-builder.defineMetaHandler((args, cb) => {
-  cb(null, {
+builder.defineMetaHandler((args) => {
+  return Promise.resolve({
     id: args.id,
     type: 'movie',
     name: 'Loading...',
-    poster: 'https://wsxmcc.neocities.org/file2.png',
-    background: 'https://wsxmcc.neocities.org/file2.png',
+    poster: 'https://i.imgur.com/YOURIMAGE.jpg',
+    background: 'https://i.imgur.com/YOURIMAGE.jpg',
     streams: [
       {
         title: '1080p',
-        url: 'hhttps://wsxmcc.neocities.org/file2.png'
+        url: 'https://YOUR-VIDEO-LINK.mp4'
       }
     ]
   });
 });
 
-app.use(builder.getInterface());
-
-app.listen(PORT);
+serveHTTP(builder.getInterface(), { port: PORT });
