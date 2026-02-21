@@ -25,15 +25,111 @@ builder.defineCatalogHandler((args) => {
       {
         id: 'uhd:1',
         type: 'movie',
-        name: 'PLAY ME',
+        name: 'PUT MY FUCKING BIKE AWAY',
         poster: 'https://wsxmcc.neocities.org/file2.png'
       },
       {
         id: 'uhd:2',
         type: 'movie',
-        name: 'PLAY ME',
+        name: 'PUT MY FUCKING BIKE AWAY',
         poster: 'https://wsxmcc.neocities.org/file2.png'
       }
+      {
+        id: 'uhd:1',
+        type: 'movie',
+        name: 'PUT MY FUCKING BIKE AWAY',
+        poster: 'https://wsxmcc.neocities.org/file2.png'
+      },
+      {
+        id: 'uhd:1',
+        type: 'movie',
+        name: 'PUT MY FUCKING BIKE AWAY',
+        poster: 'https://wsxmcc.neocities.org/file2.png'
+      },
+      {
+        id: 'uhd:1',
+        type: 'movie',
+        name: 'PUT MY FUCKING BIKE AWAY',
+        poster: 'https://wsxmcc.neocities.org/file2.png'
+      },
+      {
+        id: 'uhd:1',
+        type: 'movie',
+        name: 'PUT MY FUCKING BIKE AWAY',
+        poster: 'https://wsxmcc.neocities.org/file2.png'
+      },
+      {
+        id: 'uhd:1',
+        type: 'movie',
+        name: 'PUT MY FUCKING BIKE AWAY',
+        poster: 'https://wsxmcc.neocities.org/file2.png'
+      },
+      {
+        id: 'uhd:1',
+        type: 'movie',
+        name: 'PUT MY FUCKING BIKE AWAY',
+        poster: 'https://wsxmcc.neocities.org/file2.png'
+      },
+      {
+        id: 'uhd:1',
+        type: 'movie',
+        name: 'PUT MY FUCKING BIKE AWAY',
+        poster: 'https://wsxmcc.neocities.org/file2.png'
+      },
+      {
+        id: 'uhd:1',
+        type: 'movie',
+        name: 'PUT MY FUCKING BIKE AWAY',
+        poster: 'https://wsxmcc.neocities.org/file2.png'
+      },
+      {
+        id: 'uhd:1',
+        type: 'movie',
+        name: 'PUT MY FUCKING BIKE AWAY',
+        poster: 'https://wsxmcc.neocities.org/file2.png'
+      },
+      {
+        id: 'uhd:1',
+        type: 'movie',
+        name: 'PUT MY FUCKING BIKE AWAY',
+        poster: 'https://wsxmcc.neocities.org/file2.png'
+      },
+      {
+        id: 'uhd:1',
+        type: 'movie',
+        name: 'PUT MY FUCKING BIKE AWAY',
+        poster: 'https://wsxmcc.neocities.org/file2.png'
+      },
+      {
+        id: 'uhd:1',
+        type: 'movie',
+        name: 'PUT MY FUCKING BIKE AWAY',
+        poster: 'https://wsxmcc.neocities.org/file2.png'
+      },
+      {
+        id: 'uhd:1',
+        type: 'movie',
+        name: 'PUT MY FUCKING BIKE AWAY',
+        poster: 'https://wsxmcc.neocities.org/file2.png'
+      },
+      {
+        id: 'uhd:1',
+        type: 'movie',
+        name: 'PUT MY FUCKING BIKE AWAY',
+        poster: 'https://wsxmcc.neocities.org/file2.png'
+      },
+      {
+        id: 'uhd:1',
+        type: 'movie',
+        name: 'PUT MY FUCKING BIKE AWAY',
+        poster: 'https://wsxmcc.neocities.org/file2.png'
+      },
+      {
+        id: 'uhd:1',
+        type: 'movie',
+        name: 'PUT MY FUCKING BIKE AWAY',
+        poster: 'https://wsxmcc.neocities.org/file2.png'
+      },
     ]
   });
 });
